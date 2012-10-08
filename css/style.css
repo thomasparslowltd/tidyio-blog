@@ -561,6 +561,7 @@ td.file-icon {
 body {
 font-size: 14px;
 line-height: 21px;
+font-family: 'Open Sans', sans-serif;
 }
 
 
@@ -571,11 +572,7 @@ margin-top: 20px;
 margin-bottom: 5px;
 }
 
-p {
-    line-height 
-}
-
 .post-content {
     padding-top: 30px;
     padding-bottom: 60px;
-    }
+ }
