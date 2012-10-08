@@ -3,7 +3,7 @@ layout: post
 title: Other People's Data
 --- 
 
-When you build software that stores  other people's data you take on a huge responsibility.  Losing someone's data  just isn't an  option and neither is allowing others to gain access to it. This is the situation we're in with tidy.io and of course we're taking it seriously! 
+When you build software that stores other people's data you take on a huge responsibility. Losing someone's data just isn't an option and neither is allowing others to gain access to it. So that’s our main, obsessively pursued, objective for tidy.io!
 
 Keeping the customer's data safe and secure requires a whole set of things. A non exhaustive list of a few of them is below.
 
@@ -17,7 +17,7 @@ If you store private user data on another service you really need to encrypt it.
 
 # Don't write it yourself 
 
-Every line of code your write is a chance to screw things up, even for the very best programmers. So if there's a well tested and reliable library available then you should use that. This is extra important for encryption stuff, it's so easy to mess it up in non-obvious ways that leave it seeming to work but which gives an attacker an easy way in. It also applies to most other things but a few other important ones are parsing, compression, and user authentication. So don't write it yourself, use a well tested library! (and if you *do* have to write it yourself, then release the code so others can look it over)
+Every line of code you write is a chance to screw things up, even for the very best programmers. So if there's a well tested and reliable library available then you should use that. This is extra important for encryption stuff, it's so easy to mess it up in non-obvious ways that leave it seeming to work but which gives an attacker an easy way in. It also applies to most other things but a few other important ones are parsing, compression, and user authentication. So don't write it yourself, use a well tested library! (and if you *do* have to write it yourself, then release the code so others can look it over)
 
 # Sanity checks
 
@@ -25,11 +25,11 @@ Sanity checks are your friend. Anywhere you're making an assumption why not add 
 
 # Test test test
 
-Automated tests are vital to reliable software. From unit tests for the individual pieces all the way up to full integration tests, these let you know right away if anything breaks.
+Automated tests are vital to reliable software. From unit tests for the individual pieces all the way up to full integration tests, this is the way to find out right away if anything breaks.
   
 # Integrate Continuously
 
-Tests on their own are great, but they still leave one vulnerable to the dreaded "works on my machine". It's also easy to forget to run the tests after a change. The fix to both of these issues is automatic CI (Continuous Integration). Every time new code is pushed to the repository the CI server checks it out and runs all the tests in a clean environment. Traditionally CI servers have been a pain in the neck to run (or maybe it's just me?) but thanks to a great new startup called [CircleCI](https://circleci.com/) that isn't such an issue anymore, do check them out!
+Tests on their own are great, but they still leave one vulnerable to the dreaded "works on my machine" syndrome. It's also easy to forget to run the tests after a change. The fix to both of these issues is automatic CI (Continuous Integration). Every time new code is pushed to the repository the CI server checks it out and runs all the tests in a clean environment. Traditionally CI servers have been a pain in the neck to run (or maybe it's just me?) but thanks to a great new startup called [CircleCI](https://circleci.com/) that isn't such an issue anymore. Do check them out!
 
 # Early warning system
 
