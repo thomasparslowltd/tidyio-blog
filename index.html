@@ -1,0 +1,27 @@
+---
+layout: default
+description: A description about my blog homepage
+---
+
+{% for post in site.posts %}
+<div class="container">
+    <article>
+      <header>
+        <h2>
+          <a href="{{ post.url }}" rel="bookmark" title="Permanent link to ">{{ post.title }}</a>
+        </h2>
+      </header>
+
+      <div class="row">
+          <div class="span8 box offset2" style="padding: 0">
+                <h5 style="padding: 5px; position: absolute"><time>{{ post.date | date: '%B' }} {{ post.date | date: '%e' }}, {{ post.date | date: '%Y' }}</time><br>Thomas Parslow</h5>
+              <div class="span5 offset1" style="padding-top: 30px">
+                {{ post.content }} 
+              </div>
+          </div>
+      </div>
+    </article>
+</div>
+{% endfor %}
+
+

@@ -1,0 +1,22 @@
+---
+layout: default
+---
+
+<div class="container">
+    <article>
+      <header>
+        <h2>
+          <a href="{{ page.url }}" rel="bookmark" title="Permanent link to ">{{ page.title }}</a>
+        </h2>
+      </header>
+
+      <div class="row">
+          <div class="span8 box offset2" style="padding: 0">
+                <h5 style="padding: 5px; position: absolute"><time>{{ page.date | date: '%B' }} {{ page.date | date: '%e' }}, {{ page.date | date: '%Y' }}</time><br>Thomas Parslow</h5>
+              <div class="span5 offset1" style="padding-top: 30px">
+                {{ content }} 
+              </div>
+          </div>
+      </div>
+    </article>
+</div>
