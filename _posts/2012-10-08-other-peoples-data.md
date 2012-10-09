@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Other People's Data
+title: Other people's data.
 --- 
 
 Keeping the customer's data safe and secure requires a large set of precautions. Listed below are a few of the precautions that we take here at [tidy.io](https://www.tidy.io) (the new way to Archive and Backup your files direct from Dropbox!)
