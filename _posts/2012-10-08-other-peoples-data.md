@@ -3,7 +3,7 @@ layout: post
 title: Other People's Data
 --- 
 
-Keeping the customer's data safe and secure requires a large set of precautions. A non exhaustive list of a few of those precautions that we take here at tidy.io is below.
+Keeping the customer's data safe and secure requires a large set of precautions. A non exhaustive list of a few of those precautions that we take here at [tidy.io](https://www.tidy.io) is below.
 
 When you build software that stores other people's data you take on a huge responsibility. Losing someone's data just isn't an option and neither is allowing others to gain access to it. So that’s our main, obsessively pursued, objective for tidy.io!
 
